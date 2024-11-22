@@ -1,0 +1,81 @@
+.comptes-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.comptes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comptes-item {
+  padding: 10px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.comptes-item:last-child {
+  border-bottom: none;
+}
+
+.comptes-item-text {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.comptes-form-container {
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.form-input,
+.form-select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #0a0a0a;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-input:focus,
+.form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px #007bff;
+}
+
+.form-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+}

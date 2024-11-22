@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1a202c; /* Dark background */
+  color: #e2e8f0; /* Light text */
+  margin: 0;
+}
+
+button {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+/* Sidebar */
+aside {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+aside h1 {
+  margin-bottom: 2rem;
+}
+
+/* Main Content Layout */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 2rem;
+}
+
+/* Form & List Container */
+.main-container {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.main-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #a0aec0; /* Light gray for title */
+}
+
+.card {
+  background-color: #2d3748;
+  color: #edf2f7;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  background-color: #2d3748;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #a0aec0;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #4a5568;
+  border-radius: 0.5rem;
+  background-color: #1a202c;
+  color: #edf2f7;
+}
+
+form button {
+  width: 100%;
+  background-color: #3182ce;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4299e1;
+}
